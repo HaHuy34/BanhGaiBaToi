@@ -9,6 +9,7 @@
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
+    background-color: #FFFFFF;
 }
 
 
@@ -22,10 +23,39 @@ body {
     color: #42844B;
     text-decoration: none;
 }
+.abs-top, .abs-bottom {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.abs-bottom {
+    margin-top: 20px;
+}
+
+.col-item {
+    width: 167px;
+text-align: center;
+}
+
+.image-banhgai {
+height: 187px;
+width: 100%;
+}
+
+.image-banhgai img {
+    width: 100%;
+    height: 100%;
+}
 
 .content-folow {
     text-align: center;
     line-height: normal;
+}
+
+.item {
+    padding: 0 !important;
 }
 
 .content-folow h4 {
@@ -107,6 +137,8 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #FCE7AC;
+    padding-top: 9px;
 }
 
 .sp-boy {
@@ -140,9 +172,9 @@ img {
     cursor: pointer;
 }
 
-.item img {
+/* .item img {
     margin-bottom: 10px;
-}
+} */
 
 .hotline-footer {
     position: fixed;
@@ -276,6 +308,10 @@ a.link-map:hover .map-img {
     font-size: 22px;
 }
 
+.content-banhgai h3 {
+    font-size: 18px;
+}
+
 .address a {
     color: #000;
 }
@@ -304,8 +340,10 @@ a.link-map:hover .map-img {
     font-weight: 600;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 14px;
 }
 
 #back-to-top {
